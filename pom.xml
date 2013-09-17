@@ -30,7 +30,7 @@
 
 		<jackson-mapper-asl.version>1.9.13</jackson-mapper-asl.version>
 		<jaxb-api.version>2.2.11</jaxb-api.version>
-
+		<geotools.version>10-RC2</geotools.version>
 		<guava.version>15.0</guava.version>
 		<!-- Logging -->
 		<logback.version>1.0.13</logback.version>
@@ -177,6 +177,12 @@
 			<artifactId>postgresql</artifactId>
 			<version>${postgresql.version}</version>
 		</dependency>
+		
+        <dependency>
+            <groupId>org.geotools</groupId>
+            <artifactId>gt-shapefile</artifactId>
+            <version>${geotools.version}</version>
+        </dependency>
 
 
 		<!-- Test Artifacts -->
